@@ -1,0 +1,33 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 100vh;
+}
+
+.box {
+  background-size: cover;
+  background-position: center;
+}
+
+#box1 {
+  background-image: url('https://media.discordapp.net/attachments/776398354040094770/978023470296350820/caption_1.gif?ex=662a0c96&is=6628bb16&hm=c9f4df979df5ee217a1f888b2dbee948d0c6bec9f38e5394f522176a7213e0c1&'); /* Replace 'image1.jpg' with your image path */
+}
+
+#box2 {
+  background-image: url('https://cdn.discordapp.com/attachments/1097803250062856296/1232752041441362022/caption-33.gif?ex=662a994e&is=662947ce&hm=087c68bdce0ccb6904ac10136745026cf2cdcd629458186784333de454ad006e&'); /* Replace 'image2.jpg' with your image path */
+}
+
+#box3 {
+  background-image: url('https://cdn.discordapp.com/attachments/545998797751451650/1201547386380615731/ZFHklqkL.gif?ex=662a74b4&is=66292334&hm=65346ef6203f9e1a739640a627486cfec0ac63b24eada2d261292339f1a5799e&'); /* Replace 'image3.jpg' with your image path */
+}
+
+#box4 {
+  background-image: url('https://media.discordapp.net/attachments/1097803250062856296/1187518351879196703/SPOILER_ezgif-2-53683aa664.gif?ex=662a2ce6&is=6628db66&hm=6ff3e30da549ef2024640a2f4b7c095a402a71eea2e6b79ae63ed67eb12d0172&'); /* Replace 'image4.jpg' with your image path */
+}
